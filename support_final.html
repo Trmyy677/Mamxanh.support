@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trợ giúp - Ứng dụng Mầm Xanh</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f0f8f4;
+      margin: 0;
+      padding: 0;
+      color: #1b4332;
+      line-height: 1.7;
+    }
+
+    header {
+      background-color: #2d6a4f;
+      color: white;
+      text-align: center;
+      padding: 18px;
+      font-size: 1.6em;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 24px;
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 14px;
+      margin-bottom: 18px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    .toggle-header {
+      background: #b7e4c7;
+      color: #1b4332;
+      cursor: pointer;
+      padding: 16px 20px;
+      font-weight: 600;
+      font-size: 1.2em;
+      transition: background 0.3s;
+    }
+
+    .toggle-header:hover {
+      background: #95d5b2;
+    }
+
+    .toggle-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease-out, padding 0.3s;
+      padding: 0 20px;
+      background: #ffffff;
+    }
+
+    .toggle-content.open {
+      max-height: 1000px;
+      padding: 20px;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      background-color: #b7e4c7;
+      text-align: center;
+      border-radius: 10px;
+      padding: 14px;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+
+    .contact a {
+      color: #1b4332;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>🌿 Trợ giúp - Ứng dụng Mầm Xanh</header>
+
+  <main>
+    <!-- Giới thiệu -->
+    <div class="card">
+      <div class="toggle-header">1. Giới thiệu</div>
+      <div class="toggle-content">
+        <p>
+          Chào mừng bạn đến với <b>ứng dụng Mầm Xanh</b>! 🌱  
+          Đây là nền tảng kết nối cộng đồng cùng chung tay giảm thiểu hiệu ứng đảo nhiệt đô thị tại Trà Vinh, thông qua các hoạt động trồng cây, chia sẻ bài viết xanh và theo dõi dữ liệu môi trường trực quan.
+        </p>
+        <p>
+          Ứng dụng gồm nhiều tính năng như: bản đồ nhiệt – bản đồ phủ xanh, cộng đồng xanh, Chatbot AI, bảng xếp hạng và hệ thống điểm thưởng xanh.
+        </p>
+      </div>
+    </div>
+
+    <!-- Hướng dẫn sử dụng -->
+    <div class="card">
+      <div class="toggle-header">2. Hướng dẫn sử dụng</div>
+      <div class="toggle-content">
+        <ul>
+          <li>🌡️ <b>Bản đồ nhiệt:</b> Hiển thị nhiệt độ các khu vực đô thị theo thời gian thực, giúp người dùng nhận biết các “điểm nóng”.</li>
+
+          <li>🌳 <b>Bản đồ phủ xanh:</b> Thể hiện mật độ cây xanh ở từng khu vực, bao gồm công viên, trường học, khu dân cư và khu trồng mới. Các sự kiện trồng cây và vườn cây được hiển thị trực tiếp trên bản đồ, giúp theo dõi sự thay đổi mảng xanh theo thời gian.</li>
+
+          <li>👥 <b>Cộng đồng xanh:</b> Nơi người dùng đăng bài viết, chia sẻ hình ảnh, bình luận và lan tỏa các hành động tích cực vì môi trường.</li>
+
+          <li>💚 <b>Điểm xanh:</b> Hệ thống tích điểm khi người dùng đăng nhập hằng ngày, tương tác trong cộng đồng hoặc tham gia thử thách – điểm này dùng để xếp hạng và đổi quà.</li>
+
+          <li>🤖 <b>Chatbot Mầm Xanh:</b> Trợ lý AI được xây dựng bằng ChatGPT Nano 5, giúp trả lời các câu hỏi về phân loại rác, cách trồng cây, hoặc hướng dẫn hành động xanh.</li>
+
+          <li>🔍 <b>Khám phá thêm:</b> Tổng hợp nhiều tiện ích như Thư viện cây xanh, Trải nghiệm giáo dục & trò chơi, Biểu đồ thống kê, Bản đồ gắn ảnh 360° và hệ thống bản đồ tương tác – nơi người dùng có thể xem vị trí cây trồng, các dự án xanh và dữ liệu môi trường cập nhật.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="card">
+      <div class="toggle-header">3. Câu hỏi thường gặp (FAQ)</div>
+      <div class="toggle-content">
+        <ul>
+          <li><b>Ứng dụng có cần Internet không?</b><br> Có, để cập nhật dữ liệu bản đồ và nhiệt độ thời gian thực.</li>
+          <li><b>Làm sao xem khu vực đang nóng nhất?</b><br> Mở “Bản đồ nhiệt” và chọn chế độ hiển thị khu vực.</li>
+          <li><b>Muốn xem khu vực phủ xanh?</b><br> Vào “Bản đồ phủ xanh”, chọn khu vực mong muốn, bạn sẽ thấy các điểm cây trồng, vườn, công viên được hiển thị rõ ràng.</li>
+          <li><b>Tôi được điểm xanh khi nào?</b><br> Khi đăng nhập hằng ngày, đăng bài viết, bình luận hoặc tham gia hoạt động cộng đồng.</li>
+          <li><b>Làm sao đổi quà?</b><br> Vào mục “Cửa hàng xanh”, chọn phần thưởng phù hợp với số điểm hiện có.</li>
+          <li><b>Báo lỗi hoặc góp ý ở đâu?</b><br> Trong phần “Trợ giúp & Phản hồi” của ứng dụng.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Phản hồi -->
+    <div class="card">
+      <div class="toggle-header">4. Góp ý & phản hồi</div>
+      <div class="toggle-content">
+        <p>
+          Chúng em luôn mong nhận được ý kiến đóng góp để ứng dụng <b>Mầm Xanh</b> ngày càng hoàn thiện hơn 🌱  
+          Bạn có thể:
+        </p>
+        <ul>
+          <li>Gửi góp ý về giao diện, trải nghiệm hoặc tính năng mới.</li>
+          <li>Đánh giá ứng dụng (1–5⭐) và viết phản hồi trực tiếp trong phần “Phản hồi”.</li>
+          <li>Đề xuất thêm hoạt động xanh hoặc sáng kiến bảo vệ môi trường.</li>
+        </ul>
+        <div class="contact">
+          📧 Liên hệ: <a href="mailto:mamxanh.support@gmail.com">mamxanh.support@gmail.com</a><br />
+          💬 Hoặc trò chuyện trực tiếp với Chatbot Mầm Xanh trong ứng dụng.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const headers = document.querySelectorAll('.toggle-header');
+    headers.forEach(header => {
+      header.addEventListener('click', () => {
+        const content = header.nextElementSibling;
+        content.classList.toggle('open');
+      });
+    });
+  </script>
+</body>
+</html>
